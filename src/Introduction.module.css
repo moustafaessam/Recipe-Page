@@ -1,0 +1,29 @@
+.mainHeader {
+  font-family: var(--young-serif);
+  font-weight: 400;
+  font-size: 4rem;
+  margin-bottom: var(--header-margin-bottom);
+  color: var(--stone-900);
+}
+.description {
+  line-height: 1.45em;
+  color: var(--stone-600);
+}
+.preparationListBox {
+  margin-top: 2.8rem;
+  padding: 2.56rem 2.4rem;
+  background-color: var(--rose-50);
+  border-radius: 1.12rem;
+}
+.preparationHeader {
+  color: var(--rose-800);
+  margin-bottom: 1.6rem;
+}
+.preparationList {
+  margin-inline: 3.2rem;
+}
+.preparationItem {
+  line-height: 2.88rem;
+  padding-left: 1.28rem;
+  color: var(--stone-600);
+}

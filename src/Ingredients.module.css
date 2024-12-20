@@ -1,0 +1,14 @@
+.ingredientsSection {
+  margin: var(--section-spacing) 0;
+}
+
+.ingredientsList {
+  padding: 0.4rem;
+  margin-left: 2.24rem;
+}
+
+.ingredientsItem {
+  line-height: 2.88rem;
+  padding-left: 1.28rem;
+  color: var(--stone-600);
+}

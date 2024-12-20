@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* Colors */
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+  /* Font Family */
+  --outfit: "Outfit", sans-serif;
+  --young-serif: "Young Serif", serif;
+  /* Spacing */
+  --mainContent-padding: 4rem;
+  --section-spacing: 3.2rem;
+  --header-margin-bottom: 1.6rem;
+  /* Border Radius */
+  --main-radius: 22.4px;
+  --image-radius: 11.2px;
+}
+
+body {
+  background-color: var(--stone-100);
+  font-size: 1.6rem;
+  font-family: var(--outfit);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12rem;
+  margin-bottom: 13.6rem;
+}
+
+hr {
+  width: 100%;
+  background-color: hsla(30deg, 18%, 87%, 0.643);
+  border: none;
+  height: 1px;
+}
+
+.sectionHeader {
+  margin-bottom: 1.6rem;
+  font-size: 2.88rem;
+  color: var(--brown-800);
+  font-family: var(--young-serif);
+  font-weight: 400;
+}
+p {
+  line-height: 1.45em;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: var(--white);
+  }
+  #root {
+    margin: 0;
+  }
+}

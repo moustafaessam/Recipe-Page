@@ -1,0 +1,19 @@
+.imgSection {
+  height: 30rem;
+  margin-bottom: var(--section-spacing);
+}
+
+.img {
+  border-radius: var(--image-radius);
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .img {
+    position: absolute;
+    border-radius: 0;
+    left: 0;
+    height: 30rem;
+  }
+}

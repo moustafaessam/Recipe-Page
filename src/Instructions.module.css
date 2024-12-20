@@ -1,0 +1,14 @@
+.sectionBox {
+  margin: var(--section-spacing) 0;
+}
+.instructionsList {
+  padding-left: 2.72rem;
+}
+.instructionsItem {
+  line-height: 2.88rem;
+  padding-left: 1.28rem;
+  color: var(--stone-600);
+}
+.instructionsBlack {
+  font-weight: 600;
+}

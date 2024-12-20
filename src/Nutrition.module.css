@@ -1,0 +1,24 @@
+.sectionBox {
+  margin-top: var(--section-spacing);
+}
+.text {
+  color: var(--stone-600);
+}
+.micros {
+  display: flex;
+  flex-direction: column;
+  margin: 1.52rem 0;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.rowItem {
+  color: var(--stone-600);
+  width: 50%;
+  padding: 1.08rem 2.24rem;
+  font-weight: 600;
+}
+.value {
+  color: var(--brown-800);
+}
